@@ -1,21 +1,21 @@
 import unittest
-from models import news
+from models import photo
 
-News = news.News
+Photo = photos.Photo
 
-class NewsTest(unittest.TestCase):
+class PhotoTest(unittest.TestCase):
     '''
-    Test Class to test the behaviour of the News class
+    Test Class to test the behaviour of the Photo class
     '''
 
     def setUp(self):
         '''
         Set up method that will run before every Test
         '''
-        self.new_news= News("abc-news","Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com.","ABC News","general", "https://abcnews.go.com")
+      
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.new_news,News))
+        self.assertTrue(isinstance(self.photo_photo,Photo))
 
 
 if __name__ == '__main__':
