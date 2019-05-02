@@ -90,3 +90,17 @@ def lisa():
     title = 'Home - Welcome to The best Photo Hub Website Online'
     return render_template('lisa.html', title=title)
 
+@main.route('/david')
+def david():
+
+    '''
+    View root page function that returns the index page and its data
+    '''
+    # sources=get_sources()
+    # Getting popular news
+    # popular_photos= get_photo("top-photos")
+    # upcoming_news = get_news()
+    # now_showing_news = get_news()
+    title = 'Home - Welcome to The best Photo Hub Website Online'
+    return render_template('david.html', title=title)
+
