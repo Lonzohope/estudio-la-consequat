@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "${workspaceFolder}/virtual/bin/python"
+    "python.pythonPath": "${workspaceFolder}/virtual/bin/python",
+    "python.unitTest.nosetestArgs": [],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": true
 }
